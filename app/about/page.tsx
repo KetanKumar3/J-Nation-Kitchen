@@ -248,9 +248,9 @@ export default function AboutPage() {
             Whether you're joining us for a casual meal or a special celebration, we look forward to serving you.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="bg-yellow-500 hover:bg-red-500 text-brown-950 hover:text-white font-bold px-8 py-6 transition-colors">
+            {/* <Button className="bg-yellow-500 hover:bg-red-500 text-brown-950 hover:text-white font-bold px-8 py-6 transition-colors">
               Reserve a Table
-            </Button>
+            </Button> */}
             <Link href="/menu">
               <Button
                 variant="outline"

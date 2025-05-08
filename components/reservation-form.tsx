@@ -145,7 +145,7 @@ export default function ReservationForm() {
           type="submit"
           className="w-full bg-yellow-500 hover:bg-red-500 text-brown-950 hover:text-white font-medium transition-colors"
         >
-          Reserve Table
+          Submit
         </Button>
       </form>
     </div>

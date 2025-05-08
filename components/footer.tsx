@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {["Home", "About", "Menu", "Shop", "Contact", "Reservation"].map((item) => (
+              {["Home", "About", "Menu", "Contact"].map((item) => (
                 <li key={item}>
                   <Link href={`/${item.toLowerCase()}`} className=" hover:text-red-400 transition-colors">
                     {item}

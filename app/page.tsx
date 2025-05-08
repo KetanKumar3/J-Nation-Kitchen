@@ -171,7 +171,7 @@ export default function Home() {
           </div>
 
           <Tabs defaultValue="all" className="mb-8">
-            <TabsList className="bg-beige-200 p-1">
+            {/* <TabsList className="bg-beige-200 p-1">
               <TabsTrigger value="all" className="data-[state=active]:bg-yellow-500 data-[state=active]:text-black">
                 All
               </TabsTrigger>
@@ -190,7 +190,7 @@ export default function Home() {
               <TabsTrigger value="drinks" className="data-[state=active]:bg-yellow-500 data-[state=active]:text-black">
                 Drinks
               </TabsTrigger>
-            </TabsList>
+            </TabsList> */}
 
             <TabsContent value="all" className="mt-6">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">

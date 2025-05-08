@@ -160,7 +160,7 @@ export default function GalleryGrid() {
     <div>
       {/* Category Tabs */}
       <Tabs defaultValue="all" className="mb-8">
-        <div className="flex justify-center mb-8">
+        {/* <div className="flex justify-center mb-8">
           <TabsList className="bg-beige-200 p-1">
             <TabsTrigger
               value="all"
@@ -198,7 +198,7 @@ export default function GalleryGrid() {
               Events
             </TabsTrigger>
           </TabsList>
-        </div>
+        </div> */}
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
